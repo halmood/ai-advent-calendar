@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Adventskalender - Entdecke die Zukunft der Künstlichen Intelligenz">
+    <title>AI Adventskalender - Mission Zukunft</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="calendar-overview">
+
+    <div style="background-color: #0a0a1a; color: #00f3ff; padding: 10px; text-align: center; border-bottom: 1px solid #ff00ff; font-family: 'Share Tech Mono', monospace;">
+        <span role="img" aria-label="System">🤖</span> SYSTEM STATUS: BETA // PROTOKOLL "ADVENT" GELADEN
+    </div>
+
+    <h1>AI ADVENT CALENDAR <span style="font-size: 0.5em; vertical-align: super; color: #ff00ff;">v2.0</span></h1>
+    
+    <p>
+        Willkommen im neuronalen Netz. <br>
+        Vergiss trockene Theorie. Jeden Tag erwartet dich ein neues Datenpaket mit einem konkreten <strong>Prompting-Hack oder GenAI-Konzept</strong>, das deinen Workflow sofort verbessert.
+        <br>
+        Initialisiere den Lernprozess und upgrade deine Skills.    </p>
+
+    <div id="calendar-grid">
+        <a href="#" class="advent-door" id="door-1">1</a>
+        <a href="#" class="advent-door" id="door-2">2</a>
+        <a href="#" class="advent-door" id="door-3">3</a>
+        <a href="#" class="advent-door" id="door-4">4</a>
+        <a href="#" class="advent-door" id="door-5">5</a>
+        <a href="#" class="advent-door" id="door-6">6</a>
+        <a href="#" class="advent-door" id="door-7">7</a>
+        <a href="#" class="advent-door" id="door-8">8</a>
+        <a href="#" class="advent-door" id="door-9">9</a>
+        <a href="#" class="advent-door" id="door-10">10</a>
+        <a href="#" class="advent-door" id="door-11">11</a>
+        <a href="#" class="advent-door" id="door-12">12</a>
+        <a href="#" class="advent-door" id="door-13">13</a>
+        <a href="#" class="advent-door" id="door-14">14</a>
+        <a href="#" class="advent-door" id="door-15">15</a>
+        <a href="#" class="advent-door" id="door-16">16</a>
+        <a href="#" class="advent-door" id="door-17">17</a>
+        <a href="#" class="advent-door" id="door-18">18</a>
+        <a href="#" class="advent-door" id="door-19">19</a>
+        <a href="#" class="advent-door" id="door-20">20</a>
+        <a href="#" class="advent-door" id="door-21">21</a>
+        <a href="#" class="advent-door" id="door-22">22</a>
+        <a href="#" class="advent-door" id="door-23">23</a>
+        <a href="#" class="advent-door" id="door-24">24</a>
+    </div>
+
+    <div id="riddle-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            
+            <img id="modal-image" src="" alt="Tagesbild" class="riddle-img">
+
+            <h2 id="modal-title">SYSTEM LOG: TAG X</h2>
+            
+            <div id="modal-text" style="font-family: 'Share Tech Mono', monospace; font-size: 1.2em; margin: 20px 0; line-height: 1.5;">
+                Daten werden geladen...
+            </div>
+            
+            <button id="solution-btn">DECRYPT ANSWER</button>
+            
+            <div id="modal-result" style="display: none; margin-top: 20px; border-top: 1px solid #333; padding-top: 20px;">
+                
+                <div id="modal-answer" style="color: #ff00ff; font-weight: bold; font-size: 1.4em; text-shadow: 0 0 5px #ff00ff; margin-bottom: 15px;">
+                    [LÖSUNG]
+                </div>
+
+                <div id="modal-explanation" style="font-size: 0.95em; color: #ccc; text-align: left; background: rgba(255, 255, 255, 0.05); padding: 15px; border-radius: 5px; border-left: 3px solid #00f3ff;">
+                    [ERKLÄRUNG]
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
