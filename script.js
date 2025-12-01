@@ -166,7 +166,7 @@ const closeBtn = document.querySelector('.close-btn');
 function initializeCalendar() {
     const today = new Date();
     // TEST-MODUS: Wenn heute nicht Dezember ist, tun wir so, als wäre der 24.
-   // const currentDay = (today.getMonth() === 11) ? today.getDate() : 24; 
+   const currentDay = (today.getMonth() === 11) ? today.getDate() : 24; 
 
     for (let i = 1; i <= 24; i++) {
         const door = document.getElementById(`door-${i}`);
